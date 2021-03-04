@@ -59,9 +59,9 @@ def check_is_digit(guess):
 
 def get_available_letters(letters_used):
     '''
-    letters_guessed: list (of letters), which letters have been guessed so far
+    letters_used: list (of letters), which letters have been used so far
     returns: string (of letters), comprised of letters that represents which letters have not
-      yet been guessed.
+      yet been used.
     '''
     abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
            'w', 'x', 'y', 'z']
